@@ -1,0 +1,46 @@
+Leia-se = (igual) como 'Recebe' no Javascript
+       
+        var: Variaveis.
+
+        Dica: Leia-se = (igual) como 'recebe'. 'Let' também pode ser usado.
+           
+            Identificadores
+
+       São os modelos de variaveis.
+       
+       Podem começar com letra, $ ou _. Não podem começar com números.
+       
+       Podem usar letras, números, acentos e símbolos.
+       
+       Não podem conter espaço (usa o sublinhado) ou ser palavras reservadas (como function, 
+       comandos proprios)
+       
+            Dicas de Identificadores
+        
+        Maiusculas e minusculas fazem diferença.
+
+        Tente escolher nomes coerentes para as variáveis.
+
+            Tipos Primitivos
+
+        Number: '5, 18, -12, 0.5, -15.9, 3.14, 8.0...', numeros simples e curtos.
+
+        String: "Google", 'JavaScript', `Maria`, complexos e mais longos.
+
+        Boolean: 'True' ou 'False'.
+
+        Infinity e NaN (Not a Number): Dois sub-tipos de Number.
+
+        Null:
+
+        Undefined:
+
+        Object:
+
+        Array: Sub-tipo dentro de Object.
+
+        Function: 
+
+            Comandos
+        
+        typeof: Vê o tipo primitivo da ultima variável feita.

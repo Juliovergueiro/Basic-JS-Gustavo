@@ -1,0 +1,12 @@
+for (inicio ; teste ; incr){
+
+}
+
+O comando for tem três partes; o início (a inicialização), o teste, ou seja, um teste lógico, e um incremento.
+
+Ou seja, na primeira passagem pelo for, ele vai fazer a inicialização e o teste. Sendo o teste verdadeiro, ele vai executar um bloco com a quantidade de comandos que for
+(e, óbvio, você pode adicionar quantos comandos quiser (while, do while, if...)).
+
+for (var c=1; c <= 10; c++){
+    
+}

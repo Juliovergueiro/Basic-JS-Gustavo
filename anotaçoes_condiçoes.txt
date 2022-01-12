@@ -1,0 +1,59 @@
+        Sequência
+
+var n = 3
+       
+var += 2
+
+window.alert(n)
+
+O comando é executado exatamente nessa ordem. Ele vai declarar que o número é 3, somar o número + 2 e passar a ser 5, e aí informar pelo alerta que o número é 5.
+
+        Condições
+
+if (condição) {
+        true
+}
+
+Uma condição simples. O caminho é seguido caso a condição esteja aplicada.
+
+if (condição) {
+        true
+} else { 
+        false
+}
+
+Uma condição composta. O caminho é seguido dependendo da condição que estiver compatível.
+
+if (condição1) {
+        bloco1
+} else {
+        if (condição2) {
+                bloco2
+        } else {
+                bloco3
+        }
+}
+
+Uma condição aninhada. Le-se da seguinte forma;
+
+Se a condição1 não for compatível, busca-se compatibilidade no else e daí compatibilidade na condição2 do if; se a condição2 do if não for a procurada, acha então no else.
+O caminho nunca teria chego caso a condição1 fosse a procurada, claro.
+
+        Condição Composta
+
+switch (expressão) {
+
+        case valor 1:
+
+        case valor 2:
+
+        case valor 3:
+
+        default:
+}
+
+Existem várias possibilidades de valor dentro da expressão switch representadas pela expressão case.
+
+Se nenhum dos cases forem verdade, o default entra. Ele é como o else das outras condições.
+
+Depois e embaixo de todo case é preciso ter uma expressão break. É muito importante e obrigatório; é opcional no default, mas pode por mesmo assim.

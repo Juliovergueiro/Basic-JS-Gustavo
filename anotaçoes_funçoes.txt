@@ -1,0 +1,39 @@
+    Funçoes
+
+Uma função em Javascrit é um conjunto de códigos que vão ser executadas só quando um evento ocorrer. O conjunto de códigos, o bloco, é determinado pelo abrir e fechar
+de chaves {}.
+
+A 'ação' é o nome pro que vai ocorrer. Por parâmetros é opcional e os parenteses podem ser fechados sem nada ().
+
+São ações executadas assim que são chamadas ou em decorrência de algum evento.
+
+Uma função pode receber parâmetros e retornar um resultado.
+
+function ação(param) {
+    valor(param)
+}
+
+Exemplo
+
+function comerPizza() {
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+}
+
+function parimp(n){
+    if(n%2==0){
+        return 'par'
+    } else {
+        return 'impar'
+    }
+}
+
+let res = parimp(11)
+
+* let res é a 'chamada', que vai dar início a ação. O parimp(n) é o parâmetro, ou seja, o que está sendo checado (a função precisa receber nome), que nesse caso é o número 11 da variável parimp.

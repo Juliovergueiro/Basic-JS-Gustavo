@@ -1,0 +1,37 @@
+    Variações Compostas
+
+Uma variavel simples é capaz de armazenar um valor por vez (var1 = 5, var2 = 8, a var1 é 5 e a var2 é 8 e ponto final)
+
+Variáveis compostas devem ser capazes de armazenar vários valores em uma mesma estrutura (ela não vai perder os valores anteriores pra poder guardar os próximos valores).
+
+vaga a = [0,1,2]
+
+* Um array vetor, uma variável composta que se separa entre pequenos espaços
+
+let num = [5,8,2]
+
+* O 5 é representado por '0', o 8 por '1' e o 2 por '2' na ordem numérica. A ordem numérica sempre começa pelo 0, não pelo 1.
+
+num [3] = 6
+
+* Adiciona o terceiro número com valor 'num' (depois dos outros 3 na ordem numérica que começa no 0) e nos mostra ele com o valor 6.
+
+num.push = 7
+
+* Adiciona automaticamente o próximo número com valor 'num' (se o num anterior era 3, adiciona o num [4] com o valor de 7).
+
+num.length
+
+* Mostra o comprimento do array. Não tem parenteses depois.
+
+num.sort()
+
+* Pega os valores e coloca eles em ordem numérica.
+
+num.indexOf(variavel)
+
+* Pega a ordem numérica da variável. Por exemplo, num.indexOf(7) quando ele seria o número 3 (quarto da linha já que o 0 é o primeiro) vai mostrar o número 3.
+
+num.indexOf(variavel que não existe)
+
+* Trás o valor de -1 (ou seja, não encontrou a variável e nos trouxe o primeiro valor negativo. Se não encontrasse duas vezes, traria um -2).

@@ -1,0 +1,18 @@
+    Repetições
+
+Se (if) a Condição for verdadeira, o programa vai voltar ao bloco pra checar se ela pode ser repetida
+e, enquanto (while) a condição for compatível pra ser repetida, ela vai ser executada de novo e mais uma vez checada.
+
+A partir do momento que ela não for mais verdade, a repetição é ultrapassada e o código se segue normal.
+
+while (condição) {
+
+}
+
+function comerPizza() {
+    while (temFatia()){
+        comerFatia()
+    }
+}
+
+Enquanto (while) tem fatia, ele vai executar o comando de comer as fatias. Esse processo continua se repetindo enquanto (while) tiver fatia (condição).

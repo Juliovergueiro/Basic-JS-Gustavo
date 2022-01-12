@@ -1,0 +1,62 @@
+Operadores Relacionais:
+
+Maior; 5 > 2 //5 é maior que 2? O resultado é "true"
+Menor; 7 < 4 //7 é menor que 4? O resultado é "false"
+Maior ou igual; 8 >= 8 //O 8 é maior ou igual que o 8? Não é maior mas é igual, o resultado é "true"
+Menor ou igual; 9 <= 7 //O 9 é menor ou igual que o 7? Não é menor nem igual, o resultado é "false"
+Igual; 5 == 5 //O 5 é igual ao 5? Sim, o resultado é "true"
+Diferente; 4 != 4 //O 4 é diferente do 4? Não, o resultado é "false"
+
+Os resultados sempre são booleanos, ou seja, verdadeiros (true) ou falsos (false).
+
+Identidade:
+
+5 == 5 //True
+5 == '5' //True, não checa as aspas
+5 === '5' //False, checa os tipos
+5 === 5 //True, mesmos tipos
+
+Lógicos:
+
+Negação; ! //É o nosso "não". Se eu pedir uma caneta que não seja da cor azul, pode me entregar qualquer caneta, menos da cor azul.
+Conjunção; && //É o nosso "e". Se eu pedir uma caneta azul e uma vermelha, eu só vou ficar satisfeito se eu receber exatamente uma da cor azul e da cor vermelha.
+Disjunção; || //É o nosso "ou". Se eu pedir uma caneta azul ou uma vermelha, eu vou ficar satisfeito com uma caneta que pode ser tanto da cor azul ou vermelha e
+não me importo se vier mais de uma caneta.
+
+Negação:
+
+É tratado como operador unário, isto é, ele só tem um operando. Ou seja, depois da exclamação eu boto "true" ou "false".
+
+! true //Resultado false. Uma coisa que não é verdadeira é falsa.
+! false //Resultado true. Uma coisa que não é falsa é verdadeira.
+
+Conjunção:
+
+true && true //Resultado true. Eu consegui duas coisas que eu pedi.
+true && false //Resultado false. Eu consegui uma coisa que eu pedi, mas não a segunda.
+false && true //Resultado false. Eu consegui uma coisa que eu pedi, mas não a segunda.
+false && false //Resultado false. Eu não consegui nada que eu pedi.
+
+Disjunção:
+
+true || true //Resultado true. Recebi uma das canetas que pedi e mais outra.
+true || false //Resultado true. Recebi uma das canetas que pedi e uma errada, mas não precisava da errada.
+false || true //Resultado true. Recebi uma das canetas que pedi e uma errada, mas não precisava da errada.
+false || false //Resultado false. Não recebi nenhum que queria.
+
+Precedência:
+
+() ** / ...
+> < >= ...
+!
+&&
+||
+
+Ternário:
+
+?
+:
+
+Ele se chama ternário por que ele tem três partes (teste ? true : false)
+
+média 7.0 >= ? "Aprovado" : "Reprovado"
